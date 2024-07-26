@@ -1,7 +1,8 @@
 # Unsupervised Action Recognition using Spatiotemporal, Adaptive, and Attention-guided Refining-Network
 The full source code is temporarily for interview display only
 
-Abstract—Previous works on unsupervised skeleton-based ac
+# Abstract
+Previous works on unsupervised skeleton-based ac
 tion recognition primarily focused on strategies for utilizing
  features to drive model optimization through methods like
  contrastive learning and reconstruction. However, designing
