@@ -42,8 +42,8 @@ series tasks, including skeleton data. This capability is distinctly
  Index Terms—Spatiotemporal modeling, Unsupervised action
  recognition, Attention mechanism
 ## Requirements
-1.Tensorflow 1.14.0
-2.Python 3
+1.Tensorflow 1.14.0\
+2.Python 3\
 3.scikit-learn 0.21.2
 4.matplotlib 3.1.0
 5.numpy 1.16.4
