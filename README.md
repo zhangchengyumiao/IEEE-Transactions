@@ -1,7 +1,7 @@
 # Unsupervised Action Recognition using Spatiotemporal, Adaptive, and Attention-guided Refining-Network
 The full source code is temporarily for interview display only
 
-# Abstract
+## Abstract
 Previous works on unsupervised skeleton-based ac
 tion recognition primarily focused on strategies for utilizing
  features to drive model optimization through methods like
@@ -42,7 +42,7 @@ series tasks, including skeleton data. This capability is distinctly
  Index Terms—Spatiotemporal modeling, Unsupervised action
  recognition, Attention mechanism
  
- # Architecture Overview.
+## Architecture Overview.
  ![image](https://github.com/user-attachments/assets/2228e747-9829-452a-9922-7ad53b24e01a)
  
 ## Requirements
@@ -53,8 +53,9 @@ series tasks, including skeleton data. This capability is distinctly
 5. matplotlib 3.1.0\
 6. numpy 1.16.4\
 
-# Date
-NTU RGB+D 60: The dataset contains 60 classes, with a
+## Date
+### NTU RGB+D 60:
+The dataset contains 60 classes, with a
 total of 56880 samples. They were performed by 40 subjects
 aged from 10 to 35. The data set was captured by Microsoft’s
 Kinectv2 sensor using three different camera angles in the
@@ -67,8 +68,8 @@ test set by the camera. The samples collected by camera 1
 are used as the test set, and cameras 2 and 3 are used as
 the training set. The sample numbers are 18,960 and 37,920,
 respectively. We test our method on both cross-view and crosssubject protocols.
-
-NTU RGB+D 120: This dataset extends NTU RGB+D 60,
+### NTU RGB+D 120: 
+This dataset extends NTU RGB+D 60,
 a total of 113,945 samples over 120 classes performed by
 106 volunteers and captured with 32 different camera setups.
 There are a large number of samples with missing bones in
@@ -77,7 +78,8 @@ testing. The original paper on this dataset recommends two
 benchmarks: (1) the cross-subject (X-Sub) benchmark and (2)
 the cross-setup (X-Setup) benchmark, on which we test our
 method.
-Multiview Activity II (UWA3D): The dataset comprises
+### Multiview Activity II (UWA3D):
+The dataset comprises
 30 human actions, each performed 4 times by 10 subjects.
 It records 15 joints, and each action is observed from four
 different views: frontal, left and right sides, and top. The
