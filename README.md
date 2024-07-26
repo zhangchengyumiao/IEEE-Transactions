@@ -41,13 +41,14 @@ series tasks, including skeleton data. This capability is distinctly
  validated in the ablation experiments section of this paper.
  Index Terms—Spatiotemporal modeling, Unsupervised action
  recognition, Attention mechanism
+ ![image](https://github.com/user-attachments/assets/2228e747-9829-452a-9922-7ad53b24e01a)
 ## Requirements
-1.Tensorflow 1.14.0\
-2.Python 3\
-3.scikit-learn 0.21.2
-4.matplotlib 3.1.0
-5.numpy 1.16.4
-6.
+1. Tensorflow 1.14.0\
+2. Python 3\ 
+3. torch == 1.8.0 \
+4. scikit-learn 0.21.2\
+5. matplotlib 3.1.0\
+6. numpy 1.16.4\
 
 
 
