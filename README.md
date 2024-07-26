@@ -92,11 +92,17 @@ subtle differences exist.
 https://rose1.ntu.edu.sg/dataset/actionRecognition/
 
 ## Evaluation and Comparison
-
-
-
-
+To make a comprehensive evaluation, we compare our
+method with other SOTA methods under variable settings.
+1) KNN Evaluation. We employ a K-neighbors (KNN)
+classifier to evaluate our action recognition method. Specifically, we apply the KNN classifier (k=1) to the features
+extracted from the training set for a class assignment. Cosine
+similarity serves as the distance metric for recognition, placing
+each tested sequence into a class. Importantly, the KNN
+classifier eliminates the need for learning additional weights
+for action placement
+![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08)
+## visualization
 ![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/19ef00f0-00f6-4273-87a2-1fbd82fc421e)
 ![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/1c3c9919-b8d4-4a9d-a3da-5d97f2975362)
-![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08)
 ![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a86c0cc1-3981-4de0-9bfa-c610b82be5b7)
