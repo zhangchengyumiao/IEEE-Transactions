@@ -41,7 +41,10 @@ series tasks, including skeleton data. This capability is distinctly
  validated in the ablation experiments section of this paper.
  Index Terms—Spatiotemporal modeling, Unsupervised action
  recognition, Attention mechanism
+ 
+ # Architecture Overview.
  ![image](https://github.com/user-attachments/assets/2228e747-9829-452a-9922-7ad53b24e01a)
+ 
 ## Requirements
 1. Tensorflow 1.14.0\
 2. Python 3\ 
@@ -49,6 +52,41 @@ series tasks, including skeleton data. This capability is distinctly
 4. scikit-learn 0.21.2\
 5. matplotlib 3.1.0\
 6. numpy 1.16.4\
+
+# Date
+NTU RGB+D 60: The dataset contains 60 classes, with a
+total of 56880 samples. They were performed by 40 subjects
+aged from 10 to 35. The data set was captured by Microsoft’s
+Kinectv2 sensor using three different camera angles in the
+form of depth information, 3D skeleton information, RGB
+frames, and infrared sequences. The NTU dataset uses two
+benchmarks when dividing the training and test sets. Crosssubject divides the training set and test set by person ID. The
+training set contains 40,320 samples, and the test set contains
+16,560 samples. Cross-View divides the training set and the
+test set by the camera. The samples collected by camera 1
+are used as the test set, and cameras 2 and 3 are used as
+the training set. The sample numbers are 18,960 and 37,920,
+respectively. We test our method on both cross-view and crosssubject protocols.
+
+NTU RGB+D 120: This dataset extends NTU RGB+D 60,
+a total of 113,945 samples over 120 classes performed by
+106 volunteers and captured with 32 different camera setups.
+There are a large number of samples with missing bones in
+the data, and we deleted them as required during training and
+testing. The original paper on this dataset recommends two
+benchmarks: (1) the cross-subject (X-Sub) benchmark and (2)
+the cross-setup (X-Setup) benchmark, on which we test our
+method.
+Multiview Activity II (UWA3D): The dataset comprises
+30 human actions, each performed 4 times by 10 subjects.
+It records 15 joints, and each action is observed from four
+different views: frontal, left and right sides, and top. The
+dataset presents challenges due to the multitude of views,
+leading to self-occlusions when considering only parts of them.
+Additionally, there is a high similarity among actions; for
+instance, the actions ”drinking” and ”phone answering” have
+many nearly identical nodes. Even in the dynamic key points,
+subtle differences exist.
 
 
 
