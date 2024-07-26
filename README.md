@@ -52,6 +52,8 @@ series tasks, including skeleton data. This capability is distinctly
 4. scikit-learn 0.21.2
 5. matplotlib 3.1.0
 6. numpy 1.16.4
+ ![image](https://github.com/user-attachments/assets/9609d60a-a1c3-4df1-a71c-a570d709c993)
+
 
 ## Date
 ### NTU RGB+D 60:
@@ -103,6 +105,4 @@ classifier eliminates the need for learning additional weights
 for action placement
 ![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08)
 ## visualization
-![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/19ef00f0-00f6-4273-87a2-1fbd82fc421e)
-![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/1c3c9919-b8d4-4a9d-a3da-5d97f2975362)
-![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a86c0cc1-3981-4de0-9bfa-c610b82be5b7)
+
