@@ -52,7 +52,7 @@ series tasks, including skeleton data. This capability is distinctly
 4. scikit-learn 0.21.2
 5. matplotlib 3.1.0
 6. numpy 1.16.4
- ![image](https://github.com/user-attachments/assets/9609d60a-a1c3-4df1-a71c-a570d709c993)
+<img src="https://github.com/user-attachments/assets/9609d60a-a1c3-4df1-a71c-a570d709c993" width="400" height="400">
 
 
 ## Date
@@ -104,6 +104,5 @@ each tested sequence into a class. Importantly, the KNN
 classifier eliminates the need for learning additional weights
 for action placement
 ![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08)
-<img src="https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08" width="400" height="300">
 ## visualization
 
