@@ -104,5 +104,6 @@ each tested sequence into a class. Importantly, the KNN
 classifier eliminates the need for learning additional weights
 for action placement
 ![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08)
+<img src="https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08" width="400" height="300">
 ## visualization
 
