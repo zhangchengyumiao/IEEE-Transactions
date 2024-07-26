@@ -68,6 +68,8 @@ test set by the camera. The samples collected by camera 1
 are used as the test set, and cameras 2 and 3 are used as
 the training set. The sample numbers are 18,960 and 37,920,
 respectively. We test our method on both cross-view and cross-subject protocols.
+https://rose1.ntu.edu.sg/dataset/actionRecognition/
+
 ### NTU RGB+D 120: 
 This dataset extends NTU RGB+D 60,
 a total of 113,945 samples over 120 classes performed by
@@ -78,6 +80,8 @@ testing. The original paper on this dataset recommends two
 benchmarks: (1) the cross-subject (X-Sub) benchmark and (2)
 the cross-setup (X-Setup) benchmark, on which we test our
 method.
+https://rose1.ntu.edu.sg/dataset/actionRecognition/
+
 ### Multiview Activity II (UWA3D):
 The dataset comprises
 30 human actions, each performed 4 times by 10 subjects.
@@ -89,7 +93,7 @@ Additionally, there is a high similarity among actions; for
 instance, the actions ”drinking” and ”phone answering” have
 many nearly identical nodes. Even in the dynamic key points,
 subtle differences exist.
-https://rose1.ntu.edu.sg/dataset/actionRecognition/
+https://ieee-dataport.org/documents/uwa-3d-multiview-activity-ii-dataset#files
 
 ## Evaluation and Comparison
 To make a comprehensive evaluation, we compare our
@@ -101,7 +105,7 @@ similarity serves as the distance metric for recognition, placing
 each tested sequence into a class. Importantly, the KNN
 classifier eliminates the need for learning additional weights
 for action placement
-![image](https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08)
+<img src="https://github.com/zhangchengyumiao/IEEE-Transactions/assets/125729198/a1301d87-8c8b-4ef2-9af2-8ca7e2f9cd08" width="800" height="600">
 ## visualization
 ![image](https://github.com/user-attachments/assets/7c465e7f-9f8c-47ae-8fc2-a355761b2e52)
 ![image](https://github.com/user-attachments/assets/7649d258-83b5-48c5-993e-c75b262d7683)
