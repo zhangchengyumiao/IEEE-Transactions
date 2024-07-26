@@ -52,7 +52,7 @@ series tasks, including skeleton data. This capability is distinctly
 4. scikit-learn 0.21.2
 5. matplotlib 3.1.0
 6. numpy 1.16.4
-<img src="https://github.com/user-attachments/assets/9609d60a-a1c3-4df1-a71c-a570d709c993" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/9609d60a-a1c3-4df1-a71c-a570d709c993" width="400" height="300" style="float: right; margin-left: 20px;">
 
 
 ## Date
