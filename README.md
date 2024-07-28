@@ -114,7 +114,7 @@ for action placement
 ## Citation
 Please cite the https://ieeexplore.ieee.org/abstract/document/10601531 when you use this code:
 
-[@ARTICLE{10601531,
+>@ARTICLE{10601531,
   author={Yin, Xinpeng and Zhang, Cheng and Huang, ZiXu and He, Zhihai and Cao, Wenming},
   journal={IEEE Transactions on Artificial Intelligence}, 
   title={Unsupervised Action Recognition using Spatiotemporal, Adaptive, and Attention-guided Refining-Network}, 
@@ -123,7 +123,7 @@ Please cite the https://ieeexplore.ieee.org/abstract/document/10601531 when you 
   number={},
   pages={1-12},
   keywords={Skeleton;Contrastive learning;Transformers;Time series analysis;Artificial intelligence;Spatiotemporal phenomena;Decoding;Spatiotemporal modeling;Unsupervised action recognition;Attention mechanism},
-  doi={10.1109/TAI.2024.3430257}}]
+  doi={10.1109/TAI.2024.3430257}}
 
 
 
