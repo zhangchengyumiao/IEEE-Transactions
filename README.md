@@ -111,5 +111,18 @@ for action placement
 ![image](https://github.com/user-attachments/assets/7c465e7f-9f8c-47ae-8fc2-a355761b2e52)
 ![image](https://github.com/user-attachments/assets/7649d258-83b5-48c5-993e-c75b262d7683)
 
+## Citation
+@ARTICLE{10601531,
+  author={Yin, Xinpeng and Zhang, Cheng and Huang, ZiXu and He, Zhihai and Cao, Wenming},
+  journal={IEEE Transactions on Artificial Intelligence}, 
+  title={Unsupervised Action Recognition using Spatiotemporal, Adaptive, and Attention-guided Refining-Network}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Skeleton;Contrastive learning;Transformers;Time series analysis;Artificial intelligence;Spatiotemporal phenomena;Decoding;Spatiotemporal modeling;Unsupervised action recognition;Attention mechanism},
+  doi={10.1109/TAI.2024.3430257}}
+
+
 
 
