@@ -99,7 +99,7 @@ https://ieee-dataport.org/documents/uwa-3d-multiview-activity-ii-dataset#files
 To make a comprehensive evaluation, we compare our
 method with other SOTA methods under variable settings.
 1) KNN Evaluation. We employ a K-neighbors (KNN)
-classifier to evaluate our action recognition method. Specifically, we apply the KNN classifier (k=1) to the features
+classifier to evaluate our action recognition method. Specifically, we apply the KNN classifier (k=1) to the features
 extracted from the training set for a class assignment. Cosine
 similarity serves as the distance metric for recognition, placing
 each tested sequence into a class. Importantly, the KNN
@@ -115,14 +115,14 @@ for action placement
 Please cite the https://ieeexplore.ieee.org/abstract/document/10601531 when you use this code:
 
 >@ARTICLE{10601531,
-  author={Yin, Xinpeng and Zhang, Cheng and Huang, ZiXu and He, Zhihai and Cao, Wenming},
-  journal={IEEE Transactions on Artificial Intelligence}, 
-  title={Unsupervised Action Recognition using Spatiotemporal, Adaptive, and Attention-guided Refining-Network}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-12},
-  keywords={Skeleton;Contrastive learning;Transformers;Time series analysis;Artificial intelligence;Spatiotemporal phenomena;Decoding;Spatiotemporal modeling;Unsupervised action recognition;Attention mechanism},
+  author={Yin, Xinpeng and Zhang, Cheng and Huang, ZiXu and He, Zhihai and Cao, Wenming}, 
+  journal={IEEE Transactions on Artificial Intelligence},  
+  title={Unsupervised Action Recognition using Spatiotemporal, Adaptive, and Attention-guided Refining-Network},  
+  year={2024}, 
+  volume={}, 
+  number={}, 
+  pages={1-12}, 
+  keywords={Skeleton;Contrastive learning;Transformers;Time series analysis;Artificial intelligence;Spatiotemporal phenomena;Decoding;Spatiotemporal modeling;Unsupervised action recognition;Attention mechanism}, 
   doi={10.1109/TAI.2024.3430257}}
 
 
